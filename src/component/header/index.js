@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <nav className="bg-slate-900 w-full">
+    <nav className="bg-slate-900 w-full hidden  sm:block">
       <div className="flex align-middle justify-around w-full">
         <div className="flex-shrink-0">
           <img src={logoMusico} className="p-6" />

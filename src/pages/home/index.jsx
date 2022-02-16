@@ -9,6 +9,7 @@ import thumb4 from "../../assets/thumb4.png";
 
 import Header from "../../component/header";
 import Thumbnail from "../../component/thumbnail";
+import TrackCard from "../../component/trackCards";
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
               className="w-full object-contain"
             />
           </div>
-          <div className="m-auto space-y-10 lg:px-8 md:px-6 sm:py-8">
+          <div className="m-auto space-y-10 px-6 py-7 lg:px-8 md:px-6 sm:py-8">
             <span className="text-5xl font-semibold text-gray-900">
               Jack Kalib
             </span>
@@ -55,6 +56,9 @@ const Home = () => {
         {/* <Thumbnail/>
         <Thumbnail/>
         <Thumbnail/> */}
+      </div>
+      <div className="w-4/5 m-auto xl:w-3/5">
+        <TrackCard />
       </div>
     </div>
   );
